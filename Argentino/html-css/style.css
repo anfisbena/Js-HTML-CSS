@@ -1,0 +1,97 @@
+:root{
+    --color-principal: black;
+    --parrafos: white;
+    --fuente-principal: 'Roboto', sans-serif;
+    --background: url(/foto-fondo-negro.jpg);
+}
+
+/* there are 2 body's property, so the last one will stand, except in case to put !important*/
+body{
+    background-image: var(--background);
+    background-size: cover;
+    padding: 2%;
+    font-family: var(--fuente-principal);
+}
+
+
+/*all the next classes will be red also the ones with<b>*/
+p,h1,h2,h3,h4,h5,tr,td,li{
+    color: var(--parrafos);
+    font-family: var(--fuente-principal) ;
+}
+
+.rojo {
+    color: rgb(124, 20, 20);
+}
+
+.verde{
+    color: #42ce3d;
+}
+
+.fondoNegro{
+    background-color: #000000;
+}
+
+.negro-claro {
+    background-color: #ffffff0c;
+}
+
+.rosadito a {
+    color: #ee1d74;
+}
+
+/* genera barra de menu*/
+.encabezado{
+    background-color: #00a591;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    width: auto;
+    font-family: 'Roboto', sans-serif;
+    
+}
+/*Genera boton*/
+.btn {
+    background: rgb(52,152,219);
+    background: radial-gradient(circle, rgba(52,152,219,1) 0%, rgba(0,165,145,1) 100%);
+    -webkit-border-radius: 12;
+    -moz-border-radius: 12;
+    border-radius: 12px;
+    text-shadow: 2px 1px 3px #666666;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+
+/*creacion de animacion desde el codigo*/
+@keyframes cargando{
+    0% {background-color: red;}
+    20% {background-color: purple;}
+    40% {background-color: blue;}
+    60% {background-color: rgb(7, 212, 178);}
+    80% {background-color: green;}
+    100% {background-color: red;}
+}
+
+/*ejecucion de animacion en el boton cuando se posa sobre el*/
+.btn:hover{
+    background: red;
+    animation-name: cargando;
+    animation-duration:2s;
+    animation: cargando 2s infinite;
+}
+
+  .menu a{
+    display: inline-block;
+}
+/* hace que lpa*/
+@media (max-width: 300px){
+    body{
+        display : none;
+        width: calc(100%+10px);
+        background-size: auto;
+    }    
+}
+
