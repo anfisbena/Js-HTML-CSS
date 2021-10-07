@@ -1,7 +1,7 @@
 function imgSelector (img){
         switch (img){
-            case 'casa en llamas':
-                return <a href='../meme/fire.jpg'/>
+            case 'face1':
+                return <img src='https://pixy.org/src/477/4774988.jpg'/>
         }
 
 }

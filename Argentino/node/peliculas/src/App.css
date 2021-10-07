@@ -36,21 +36,3 @@
     transform: rotate(360deg);
   }
 }
-
-.memeup span {
-  color: black;
-  text-shadow: 1px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
-  position: absolute;
-  margin-top: 31px;
-  margin-left: -53px;
-  font-size: 28px; 
-}
-
-.memedown span{
-  color: black;
-  text-shadow: 1px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
-  position: absolute;
-  margin-top: -61px;
-  margin-left: -110px;
-  font-size: 28px;
-}
