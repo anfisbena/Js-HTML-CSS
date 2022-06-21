@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
 
+*{
+  color: hsl(0, 0%, 81%);
+}
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+
 
 .bg-violet{
   background-color:hsl(263, 55%, 52%);
@@ -17,7 +21,7 @@ color: hsl(0, 0%, 81%);
   background-color: hsl(219, 29%, 14%);
   color: hsl(0, 0%, 81%)
 }
-.bg-white{
+.bg-white2{
   background-color: white;
   color: hsl(0, 0%, 81%);
 }
@@ -26,9 +30,17 @@ color: hsl(0, 0%, 81%);
   color: white;
 }
 
+.round{
+  width: auto;
+  height: auto;
+  border-radius: 50%;
+  border: solid hsl(0, 0%, 81%);;
+}
+
 .name{
   font-family: 'Barlow Semi Condensed', sans-serif;
   font-size:13px;
+  font-weight: 600;
 }
 
 .verified{
@@ -38,7 +50,8 @@ color: hsl(0, 0%, 81%);
 
 .first_text{
   font-family: 'Barlow Semi Condensed', sans-serif;
-  font-size:13px;
+  font-size:1.5em;
+  font-weight: 600;
 }
 
 .second-text{
